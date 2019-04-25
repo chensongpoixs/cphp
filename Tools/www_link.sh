@@ -3,4 +3,4 @@
 
 #if [ -d ]
 
-ln –s  /var/www/cphp  ../cphp
+ln –s  /var/www/cphp  `pwd`/../cphp
