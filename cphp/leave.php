@@ -74,7 +74,9 @@ $result->close();
 
 $is_join = intval($row["is_join"]);
 
-if ($is_join == 0)
+DEBUG("is_join ====> ".$is_join);
+
+if ($is_join  == 0)
 {
 	error_return($db, 82013);
 }
